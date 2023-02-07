@@ -4,7 +4,7 @@ import Header from "../src/components/common/header/header";
 /*
 To run this App you need to install:  
 - npm install react-router-dom@6
-- npm install react-icons/fa
+- npm install --save @fortawesome/react-fontawesome
 */
 
 function App() {
