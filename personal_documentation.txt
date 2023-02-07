@@ -1,6 +1,8 @@
 click__news project steps followed
 **********************************
 
+/* Create CLiC NS mock logo */
+
 1) Create React APP + Install main packages
 - create-react-app click__news
 - npm install react-router-dom@6
