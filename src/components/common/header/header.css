@@ -1,0 +1,44 @@
+.head {
+  cursor: pointer;
+}
+.head .logo img {
+  width: 500px;
+}
+.head .login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 10vh;
+}
+/* login button */
+.head .login-btn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head .login-btn h4,
+.login-icon {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.head .login-btn h4 {
+  width: 60%;
+  justify-content: flex-end;
+  font-size: xx-large;
+}
+.head .login-btn .login-icon {
+  cursor: pointer;
+  width: 40%;
+  justify-content: flex-start;
+  font-size: xx-large;
+}
+header {
+  background-color: #000;
+  color: #fff;
+}

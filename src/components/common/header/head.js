@@ -1,5 +1,10 @@
 import React from "react";
-import { FaRegUserCircle } from "react-icons/fa";
+import "../../../App.css";
+import "./header.css";
+
+// import an icon in an individual component
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 function head() {
   return (
@@ -11,17 +16,10 @@ function head() {
           </div>
           <div className="login">
             <button className="login-btn">
-              <FaRegUserCircle
-                className="login-icon"
-                style={{
-                  position: "absolute",
-                  top: "18px",
-                  right: "45px",
-                }}
-                size="28px"
-                color="white"
-              />
               <h4>Sign in</h4>
+              <div className="login-icon">
+                <FontAwesomeIcon icon={faUser} />
+              </div>
             </button>
           </div>
         </div>
