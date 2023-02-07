@@ -1,0 +1,25 @@
+click__news project steps followed
+**********************************
+
+1) Create React APP + Install main packages
+- create-react-app click__news
+- npm install react-router-dom@6
+- npm install react-icons/fa
+- npm i react-slick
+- npm install slick-carousel --save
+
+
+
+/*** New Concept ***/
+
+React Slick: to create React Carousel, this library is the port of jQuery slick library.
+
+source: https://react-slick.neostack.com/docs/get-started/
+
+2) Create components folder and its sub folders
+- common folder > asa folder & header folder
+- inside header folder > head.js & header.js
+- images folder inside public folder
+
+3) App.css 
+
